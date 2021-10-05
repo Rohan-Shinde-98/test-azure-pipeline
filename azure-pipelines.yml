@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: sudo ./hello.sh
+- script: sudo bash hello.sh
   displayName: 'Run a one-line script'
 
 - script: |
