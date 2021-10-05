@@ -15,4 +15,5 @@ steps:
 
 - script: |
     echo "need to add the release part"
+    echo variables['Build.SourceBranch']
   displayName: 'Run a multi-line script'
