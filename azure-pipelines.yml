@@ -15,5 +15,6 @@ steps:
 
 - script: |
     ls -l
+    chmod +x hello.sh
     ./hello.sh
   displayName: 'Run a multi-line script'
